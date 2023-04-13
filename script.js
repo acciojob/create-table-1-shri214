@@ -5,7 +5,7 @@ function insert_Row() {
     //Write your code here
 	
   let str=`<tr><td>Row${i} cell${j}</td><td>Row${i} cell${k}</td></tr>`
-	var table=document.querySelector("table");
+	var table=document.getElementById("sampleTable");
 	table.innerHTML+=str;
 	i++;
 }
